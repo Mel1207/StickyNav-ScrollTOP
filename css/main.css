@@ -19,6 +19,7 @@ body .navbar {
   left: 0;
   z-index: 200;
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
 }
 body .navbar .navbar-container {
   width: 100%;
@@ -61,6 +62,10 @@ body .navbar .navbar-container .nav-logo {
   font-size: 25px;
   font-weight: 600;
   color: #2196f3;
+}
+
+.scroll-down .navbar {
+  transform: translate3d(0, -100%, 0);
 }
 
 a {
